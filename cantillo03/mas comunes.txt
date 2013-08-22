@@ -1,0 +1,14 @@
+Arquitecturas más comunes
+
+Generalmente, no es necesario inventar una nueva arquitectura de software para cada sistema de información. Lo habitual es adoptar una arquitectura conocida en función de sus ventajas e inconvenientes para cada caso en concreto. Así, las arquitecturas más universales son:
+Monolítica. Donde el software se estructura en grupos funcionales muy acoplados.
+Cliente-servidor. Donde el software reparte su carga de cómputo en dos partes independientes pero sin reparto claro de funciones.
+Arquitectura de tres niveles. Especialización de la arquitectura cliente-servidor donde la carga se divide en tres partes (o capas) con un reparto claro de funciones: una capa para la presentación (interfaz de usuario), otra para el cálculo (donde se encuentra modelado el negocio) y otra para el almacenamiento (persistencia). Una capa solamente tiene relación con la siguiente.
+Otras arquitecturas afines menos conocidas son:
+Modelo Vista Controlador.
+En pipeline.
+Entre pares.
+En pizarra.
+Orientada a servicios.
+Dirigida por eventos.
+Máquinas virtuales
